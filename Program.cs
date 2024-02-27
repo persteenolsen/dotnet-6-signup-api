@@ -61,4 +61,8 @@ using (var scope = app.Services.CreateScope())
     app.MapControllers();
 }
 
-app.Run("http://localhost:4000");
+// Used at production - simply
+app.Run();
+
+// Note: Only for local dev
+//app.Run("http://localhost:4000");
