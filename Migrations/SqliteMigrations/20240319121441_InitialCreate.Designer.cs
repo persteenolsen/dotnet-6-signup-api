@@ -8,10 +8,10 @@ using WebApi.Helpers;
 
 #nullable disable
 
-namespace WebApi.Migrations
+namespace WebApi.Migrations.SqliteMigrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20220224040327_InitialCreate")]
+    [Migration("20240319121441_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

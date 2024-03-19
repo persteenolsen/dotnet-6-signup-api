@@ -7,7 +7,7 @@ using WebApi.Helpers;
 
 #nullable disable
 
-namespace WebApi.Migrations
+namespace WebApi.Migrations.SqliteMigrations
 {
     [DbContext(typeof(DataContext))]
     partial class DataContextModelSnapshot : ModelSnapshot
